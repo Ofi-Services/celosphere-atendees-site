@@ -213,6 +213,21 @@ function handleLogo() {
     };
 }
 
+// Function to handle splash screen
+function handleSplashScreen() {
+    const splashScreen = document.getElementById('splash-screen');
+    
+    // Start fade out after 2 seconds
+    setTimeout(() => {
+        splashScreen.classList.add('fade-out');
+        
+        // Remove splash screen completely after fade animation (0.19s)
+        setTimeout(() => {
+            splashScreen.style.display = 'none';
+        }, 190); // 0.19 seconds = 190ms
+    }, 2000); // Start fade at 2 seconds
+}
+
 // Function to handle header scroll fade effect
 function handleHeaderScroll() {
     const header = document.querySelector('.header');
@@ -248,6 +263,7 @@ function handleHeaderScroll() {
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
+    handleSplashScreen();
     handleLogo();
     renderAttendees();
     handleHeaderScroll();
