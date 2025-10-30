@@ -6,7 +6,7 @@ const attendeesData = [
         jobTitle: "CEO",
         phone: "+31611199893",
         email: "l.dols@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=LD"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=LD"
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const attendeesData = [
         jobTitle: "Customer Value Director",
         phone: "+31683587368",
         email: "k.darakova@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=KD"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=KD"
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const attendeesData = [
         jobTitle: "Delivery Director",
         phone: "+31654606405",
         email: "s.bijkerk@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=SB"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=SB"
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const attendeesData = [
         jobTitle: "Engagement Lead",
         phone: "+31620465093",
         email: "d.archut@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=DA"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=DA"
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const attendeesData = [
         jobTitle: "Engagement Lead",
         phone: "+27788047770",
         email: "k.gees@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=KG"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=KG"
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const attendeesData = [
         jobTitle: "Consultant",
         phone: "+919816622382",
         email: "a.deep@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=AD"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=AD"
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const attendeesData = [
         jobTitle: "Managing Director",
         phone: "+491622098184",
         email: "g.galic@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=GG"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=GG"
     },
     {
         id: 8,
@@ -62,7 +62,7 @@ const attendeesData = [
         jobTitle: "Managing Director",
         phone: "+917008439364",
         email: "b.nandi@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=BN"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=BN"
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ const attendeesData = [
         jobTitle: "Head of Sales",
         phone: "+31636470099",
         email: "t.vanthof@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=TH"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=TH"
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const attendeesData = [
         jobTitle: "Head of Delivery",
         phone: "+31612954847",
         email: "j.rook@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=JR"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=JR"
     },
     {
         id: 11,
@@ -86,7 +86,7 @@ const attendeesData = [
         jobTitle: "Head of Delivery LATAM",
         phone: "+573105874368",
         email: "k.garavito@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=KG"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=KG"
     },
     {
         id: 12,
@@ -94,7 +94,7 @@ const attendeesData = [
         jobTitle: "CFO",
         phone: "+31621925179",
         email: "j.obdam@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=JO"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=JO"
     },
     {
         id: 13,
@@ -102,7 +102,7 @@ const attendeesData = [
         jobTitle: "Consultant",
         phone: "+573178071274",
         email: "l.yepes@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=LY"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=LY"
     },
     {
         id: 14,
@@ -110,7 +110,7 @@ const attendeesData = [
         jobTitle: "Consultant",
         phone: "+31650170931",
         email: "c.caprini@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=CC"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=CC"
     },
     {
         id: 15,
@@ -118,7 +118,7 @@ const attendeesData = [
         jobTitle: "Consultant",
         phone: "+31634117043",
         email: "o.amin@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=OA"
+        profilePhoto: "https://via.placeholder.com/200x200/cca23f/070707?text=OA"
     },
     {
         id: 16,
@@ -126,7 +126,7 @@ const attendeesData = [
         jobTitle: "Consultant",
         phone: "Contact via email",
         email: "l.hagn@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=LH"
+        profilePhoto: "https://via.placeholder.com/200x200/b8922d/070707?text=LH"
     }
 ];
 
@@ -146,7 +146,7 @@ function createAttendeeCard(attendee) {
 
     card.innerHTML = `
         <img src="${attendee.profilePhoto}" alt="${attendee.name}" class="profile-photo" 
-             onerror="this.src='https://via.placeholder.com/200x200/cccccc/white?text=${attendee.name.split(' ').map(n => n[0]).join('')}'">
+             onerror="this.src='https://via.placeholder.com/200x200/cca23f/070707?text=${attendee.name.split(' ').map(n => n[0]).join('')}'">
         <h3 class="attendee-name">${attendee.name}</h3>
         <p class="attendee-job-title">${attendee.jobTitle}</p>
         

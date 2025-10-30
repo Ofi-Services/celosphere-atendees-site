@@ -1,11 +1,17 @@
 # Assets Directory
 
-This directory is for storing images and other assets for the Ofi Services website.
+This directory contains all assets for the Ofi Services website.
+
+## Structure:
+- `images/` - All image files
+  - `logos/` - Company logos and branding
+  - `profiles/` - Team member profile photos
 
 ## Required Files:
-- `ofi-logo.png` - The Ofi Services logo (to be provided by the user)
+- `images/logos/ofi-logo.png` - The main Ofi Services logo
+- `images/profiles/[name].jpg` - Individual team member photos
 
 ## Notes:
-- The logo should be optimized for web use
-- Recommended size: 200px height maximum for best display
-- Supported formats: PNG, JPG, SVG
+- Check the README files in each subdirectory for specific requirements
+- All images should be optimized for web use
+- Maintain consistent quality and style across all assets
