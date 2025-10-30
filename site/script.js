@@ -6,63 +6,71 @@ const attendeesData = [
         jobTitle: "CEO",
         phone: "+31611199893",
         email: "l.dols@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/laurens-dols-1618b425/",
         profilePhoto: "assets/images/profiles/Laurens-Dolls.jpeg"
     },
     {
         id: 2,
-        name: "Katherine Darakova",
-        jobTitle: "Customer Value Director",
-        phone: "+31683587368",
-        email: "k.darakova@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Katharina-Darakova.jpeg"
+        name: "Joep Obdam",
+        jobTitle: "CFO",
+        phone: "+31621925179",
+        email: "j.obdam@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/joep-obdam-21766114/",
+        profilePhoto: "assets/images/profiles/Joep-Obdam.png"
     },
     {
         id: 3,
         name: "Sari Bijkerk",
-        jobTitle: "Delivery Director",
+        jobTitle: "Head of Engagement & Innovation",
         phone: "+31654606405",
         email: "s.bijkerk@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/sbijkerk/",
         profilePhoto: "assets/images/profiles/Sari- Bijkerk.jpeg"
     },
     {
         id: 4,
-        name: "Daniel Archut",
-        jobTitle: "Engagement Lead",
-        phone: "+31620465093",
-        email: "d.archut@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Daniel-Archut.jpeg"
+        name: "Katherine Darakova",
+        jobTitle: "Head of Value",
+        phone: "+31683587368",
+        email: "k.darakova@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/katherine-darakova-131a3066/",
+        profilePhoto: "assets/images/profiles/Katharina-Darakova.jpeg"
     },
     {
         id: 5,
-        name: "Katharina Gees",
-        jobTitle: "Engagement Lead",
-        phone: "+27788047770",
-        email: "k.gees@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Katharina-Gees.jpeg"
+        name: "Jeroen Rook",
+        jobTitle: "Head of Delivery",
+        phone: "+31612954847",
+        email: "j.rook@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/jeroenrook/",
+        profilePhoto: "assets/images/profiles/Jeroen-Rook.jpeg"
     },
     {
         id: 6,
-        name: "Atulya Deep",
-        jobTitle: "Consultant",
-        phone: "+919816622382",
-        email: "a.deep@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Atulya-Deep.jpeg"
-    },
-    {
-        id: 7,
-        name: "Gabriella Galic",
-        jobTitle: "Managing Director",
-        phone: "+491622098184",
-        email: "g.galic@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Gabriella-Galic.jpeg"
-    },
-    {
-        id: 8,
         name: "Bijay Nandi",
         jobTitle: "Managing Director",
         phone: "+917008439364",
         email: "b.nandi@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/bijay-krishna-nandi-289856b3/",
         profilePhoto: "assets/images/profiles/Bijay-Nandi.jpeg"
+    },
+    {
+        id: 7,
+        name: "Karen Garavito",
+        jobTitle: "Head of Delivery LATAM",
+        phone: "+573105874368",
+        email: "k.garavito@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/karengaravito/",
+        profilePhoto: "assets/images/profiles/Karen-Garavito.jpeg"
+    },
+    {
+        id: 8,
+        name: "Gabriella Galic",
+        jobTitle: "Managing Director",
+        phone: "+491622098184",
+        email: "g.galic@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/gabrielagalic/",
+        profilePhoto: "assets/images/profiles/Gabriella-Galic.jpeg"
     },
     {
         id: 9,
@@ -70,64 +78,71 @@ const attendeesData = [
         jobTitle: "Head of Sales",
         phone: "+31636470099",
         email: "t.vanthof@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Tjen-van’t-Hof.jpeg",
+        linkedinUrl: "https://www.linkedin.com/in/tjen-van-t-hof-4b323a182/",
+        profilePhoto: "assets/images/profiles/Tjen-van't-Hof.jpeg",
         meetingUrl: "https://outlook.office.com/bookwithme/user/534d1b22668c4d898d0bae7967893f4d@ofiservices.com?anonymous&ismsaljsauthenabled&ep=pcard"
     },
     {
         id: 10,
-        name: "Jeroen Rook",
-        jobTitle: "Head of Delivery",
-        phone: "+31612954847",
-        email: "j.rook@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Jeroen-Rook.jpeg"
+        name: "Katharina Gees",
+        jobTitle: "Engagement Lead",
+        phone: "+27788047770",
+        email: "k.gees@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/katharina-gees-093141151/",
+        profilePhoto: "assets/images/profiles/Katharina-Gees.jpeg"
     },
     {
         id: 11,
-        name: "Karen Garavito",
-        jobTitle: "Head of Delivery LATAM",
-        phone: "+573105874368",
-        email: "k.garavito@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Karen-Garavito.jpeg"
+        name: "Daniel Archut",
+        jobTitle: "Engagement Lead",
+        phone: "+31620465093",
+        email: "d.archut@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/da316/",
+        profilePhoto: "assets/images/profiles/Daniel-Archut.jpeg"
     },
     {
         id: 12,
-        name: "Joep Obdam",
-        jobTitle: "CFO",
-        phone: "+31621925179",
-        email: "j.obdam@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Joep-Obdam.png"
-    },
-    {
-        id: 13,
         name: "Luisa Fernanda Yepes",
         jobTitle: "Consultant",
         phone: "+573178071274",
         email: "l.yepes@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/lu20/",
         profilePhoto: "assets/images/profiles/Luisa-Fernanda-Yepes.jpeg"
     },
     {
+        id: 13,
+        name: "Atulya Deep",
+        jobTitle: "Consultant",
+        phone: "+919816622382",
+        email: "a.deep@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/atulya-deep-30497b217/",
+        profilePhoto: "assets/images/profiles/Atulya-Deep.jpeg"
+    },
+    {
         id: 14,
-        name: "Chiara Caprini",
-        jobTitle: "Consultant",
-        phone: "+31650170931",
-        email: "c.caprini@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Chiara-Caprini.jpeg"
-    },
-    {
-        id: 15,
-        name: "Omar Amin",
-        jobTitle: "Consultant",
-        phone: "+31634117043",
-        email: "o.amin@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Omar-Amin.jpeg"
-    },
-    {
-        id: 16,
         name: "Leonard Hagn",
         jobTitle: "Consultant",
         phone: "Contact via email",
         email: "l.hagn@ofiservices.com",
         profilePhoto: "assets/images/profiles/Leonard-Hagn.png"
+    },
+    {
+        id: 15,
+        name: "Chiara Caprini",
+        jobTitle: "Consultant",
+        phone: "+31650170931",
+        email: "c.caprini@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/chiara-caprini-118730194/",
+        profilePhoto: "assets/images/profiles/Chiara-Caprini.jpeg"
+    },
+    {
+        id: 16,
+        name: "Omar Amin",
+        jobTitle: "Consultant",
+        phone: "+31634117043",
+        email: "o.amin@ofiservices.com",
+        linkedinUrl: "https://www.linkedin.com/in/omar-el-amin-b18438163/",
+        profilePhoto: "assets/images/profiles/Omar-Amin.jpeg"
     }
 ];
 
@@ -166,6 +181,15 @@ function createAttendeeCard(attendee) {
                 </svg>
                 <a href="mailto:${attendee.email}" class="contact-link">${attendee.email}</a>
             </div>
+            
+            ${attendee.linkedinUrl ? `
+            <div class="contact-item">
+                <svg class="contact-icon" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <a href="${attendee.linkedinUrl}" target="_blank" class="contact-link">LinkedIn</a>
+            </div>
+            ` : ''}
         </div>
         
         ${meetingButton}
