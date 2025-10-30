@@ -1,40 +1,132 @@
-// Sample attendee data - replace this with your actual data
+// Ofi Services team members
 const attendeesData = [
     {
         id: 1,
-        name: "John Smith",
-        jobTitle: "Senior Project Manager",
-        phone: "+1 (555) 123-4567",
-        email: "john.smith@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=JS",
-        meetingUrl: "https://calendly.com/johnsmith" // Optional - only include if meeting button needed
+        name: "Laurens Dols",
+        jobTitle: "CEO",
+        phone: "+31611199893",
+        email: "l.dols@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=LD"
     },
     {
         id: 2,
-        name: "Sarah Johnson",
-        jobTitle: "Business Development Director",
-        phone: "+1 (555) 234-5678",
-        email: "sarah.johnson@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=SJ",
-        meetingUrl: "https://calendly.com/sarahjohnson"
+        name: "Katherine Darakova",
+        jobTitle: "Customer Value Director",
+        phone: "+31683587368",
+        email: "k.darakova@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=KD"
     },
     {
         id: 3,
-        name: "Michael Davis",
-        jobTitle: "Technical Consultant",
-        phone: "+1 (555) 345-6789",
-        email: "michael.davis@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=MD"
-        // No meetingUrl - button won't appear
+        name: "Sari Bijkerk",
+        jobTitle: "Delivery Director",
+        phone: "+31654606405",
+        email: "s.bijkerk@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=SB"
     },
     {
         id: 4,
-        name: "Emily Rodriguez",
-        jobTitle: "Marketing Specialist",
-        phone: "+1 (555) 456-7890",
-        email: "emily.rodriguez@ofiservices.com",
-        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=ER",
-        meetingUrl: "https://calendly.com/emilyrodriguez"
+        name: "Daniel Archut",
+        jobTitle: "Engagement Lead",
+        phone: "+31620465093",
+        email: "d.archut@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=DA"
+    },
+    {
+        id: 5,
+        name: "Katharina Gees",
+        jobTitle: "Engagement Lead",
+        phone: "+27788047770",
+        email: "k.gees@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=KG"
+    },
+    {
+        id: 6,
+        name: "Atulya Deep",
+        jobTitle: "Consultant",
+        phone: "+919816622382",
+        email: "a.deep@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=AD"
+    },
+    {
+        id: 7,
+        name: "Gabriella Galic",
+        jobTitle: "Managing Director",
+        phone: "+491622098184",
+        email: "g.galic@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=GG"
+    },
+    {
+        id: 8,
+        name: "Bijay Nandi",
+        jobTitle: "Managing Director",
+        phone: "+917008439364",
+        email: "b.nandi@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=BN"
+    },
+    {
+        id: 9,
+        name: "Tjen van 't Hof",
+        jobTitle: "Head of Sales",
+        phone: "+31636470099",
+        email: "t.vanthof@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=TH"
+    },
+    {
+        id: 10,
+        name: "Jeroen Rook",
+        jobTitle: "Head of Delivery",
+        phone: "+31612954847",
+        email: "j.rook@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=JR"
+    },
+    {
+        id: 11,
+        name: "Karen Garavito",
+        jobTitle: "Head of Delivery LATAM",
+        phone: "+573105874368",
+        email: "k.garavito@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=KG"
+    },
+    {
+        id: 12,
+        name: "Joep Obdam",
+        jobTitle: "CFO",
+        phone: "+31621925179",
+        email: "j.obdam@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=JO"
+    },
+    {
+        id: 13,
+        name: "Luisa Fernanda Yepes",
+        jobTitle: "Consultant",
+        phone: "+573178071274",
+        email: "l.yepes@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=LY"
+    },
+    {
+        id: 14,
+        name: "Chiara Caprini",
+        jobTitle: "Consultant",
+        phone: "+31650170931",
+        email: "c.caprini@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=CC"
+    },
+    {
+        id: 15,
+        name: "Omar Amin",
+        jobTitle: "Consultant",
+        phone: "+31634117043",
+        email: "o.amin@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/667eea/white?text=OA"
+    },
+    {
+        id: 16,
+        name: "Leonard Hagn",
+        jobTitle: "Consultant",
+        phone: "Contact via email",
+        email: "l.hagn@ofiservices.com",
+        profilePhoto: "https://via.placeholder.com/200x200/764ba2/white?text=LH"
     }
 ];
 
