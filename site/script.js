@@ -197,25 +197,60 @@ function handleLogo() {
     const logo = document.getElementById('ofi-logo');
     const companyName = document.querySelector('.company-name');
     
-    // Hide logo initially and show company name
-    logo.classList.add('hidden');
+    // Show logo initially
+    logo.classList.remove('hidden');
     
     // Check if logo loads successfully
     logo.onload = function() {
         logo.classList.remove('hidden');
+        console.log('Logo loaded successfully');
     };
     
     // If logo fails to load, keep it hidden
     logo.onerror = function() {
         logo.classList.add('hidden');
-        console.log('Logo not found. Using company name only.');
+        console.log('Logo failed to load. Using company name only.');
     };
+}
+
+// Function to handle header scroll fade effect
+function handleHeaderScroll() {
+    const header = document.querySelector('.header');
+    let lastScrollTop = 0;
+    let ticking = false;
+
+    function updateHeader() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = scrollTop / scrollHeight;
+        
+        // Fade out header as user scrolls down
+        // Start fading after 10% scroll and fully fade by 30%
+        let opacity = 1;
+        if (scrollPercent > 0.1) {
+            opacity = Math.max(0, 1 - (scrollPercent - 0.1) * 5);
+        }
+        
+        header.style.opacity = opacity;
+        lastScrollTop = scrollTop;
+        ticking = false;
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(updateHeader);
+            ticking = true;
+        }
+    }
+
+    window.addEventListener('scroll', requestTick, { passive: true });
 }
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     handleLogo();
     renderAttendees();
+    handleHeaderScroll();
 });
 
 // Function to add a new attendee (for future use)
