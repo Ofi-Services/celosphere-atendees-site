@@ -1,4 +1,4 @@
-// Ofi Services team members
+// OFI Services team members
 const attendeesData = [
     {
         id: 1,
@@ -7,7 +7,7 @@ const attendeesData = [
         phone: "+31611199893",
         email: "l.dols@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/laurens-dols-1618b425/",
-        profilePhoto: "assets/images/profiles/Laurens-Dolls.jpeg"
+        profilePhoto: "assets/images/profiles/Laurens-Dolls.png"
     },
     {
         id: 2,
@@ -48,7 +48,7 @@ const attendeesData = [
     {
         id: 6,
         name: "Bijay Nandi",
-        jobTitle: "Managing Director",
+        jobTitle: "Managing Director India",
         phone: "+917008439364",
         email: "b.nandi@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/bijay-krishna-nandi-289856b3/",
@@ -57,7 +57,7 @@ const attendeesData = [
     {
         id: 7,
         name: "Karen Garavito",
-        jobTitle: "Head of Delivery LATAM",
+        jobTitle: "Managing Director LATAM",
         phone: "+573105874368",
         email: "k.garavito@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/karengaravito/",
@@ -66,7 +66,7 @@ const attendeesData = [
     {
         id: 8,
         name: "Gabriella Galic",
-        jobTitle: "Managing Director",
+        jobTitle: "Managing Director DACH",
         phone: "+491622098184",
         email: "g.galic@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/gabrielagalic/",
@@ -75,7 +75,7 @@ const attendeesData = [
     {
         id: 9,
         name: "Tjen van 't Hof",
-        jobTitle: "Head of Sales",
+        jobTitle: "Sales Manager",
         phone: "+31636470099",
         email: "t.vanthof@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/tjen-van-t-hof-4b323a182/",
@@ -103,11 +103,19 @@ const attendeesData = [
     {
         id: 12,
         name: "Luisa Fernanda Yepes",
-        jobTitle: "Consultant",
+        jobTitle: "Engagement Lead",
         phone: "+573178071274",
         email: "l.yepes@ofiservices.com",
         linkedinUrl: "https://www.linkedin.com/in/lu20/",
         profilePhoto: "assets/images/profiles/Luisa-Fernanda-Yepes.jpeg"
+    },
+        {
+        id: 14,
+        name: "Leonard Hagn",
+        jobTitle: "Engagement Lead",
+        phone: "Contact via email",
+        email: "l.hagn@ofiservices.com",
+        profilePhoto: "assets/images/profiles/Leonard-Hagn.png"
     },
     {
         id: 13,
@@ -118,14 +126,7 @@ const attendeesData = [
         linkedinUrl: "https://www.linkedin.com/in/atulya-deep-30497b217/",
         profilePhoto: "assets/images/profiles/Atulya-Deep.jpeg"
     },
-    {
-        id: 14,
-        name: "Leonard Hagn",
-        jobTitle: "Consultant",
-        phone: "Contact via email",
-        email: "l.hagn@ofiservices.com",
-        profilePhoto: "assets/images/profiles/Leonard-Hagn.png"
-    },
+
     {
         id: 15,
         name: "Chiara Caprini",
@@ -156,7 +157,7 @@ function createAttendeeCard(attendee) {
              <svg class="contact-icon" style="display: inline; margin-right: 8px; width: 16px; height: 16px;" fill="currentColor" viewBox="0 0 20 20">
                  <path d="M8 12h4l-2 3z"/><path d="M2 4v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H4a2 2 0 00-2 2zm2 0h12v8H4V4z"/>
              </svg>
-             Request Meeting
+             Plan a Meeting
            </a>`
         : '';
 

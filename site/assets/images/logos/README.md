@@ -1,9 +1,9 @@
 # Logos Directory
 
-Place the Ofi Services logo and any other branding assets here.
+Place the OFI Services logo and any other branding assets here.
 
 ## Required Files:
-- `ofi-logo.png` - Main Ofi Services logo
+- `ofi-logo.png` - Main OFI Services logo
 - `ofi-logo-white.png` - White version for dark backgrounds (optional)
 - `ofi-logo.svg` - Vector version (optional, recommended)
 

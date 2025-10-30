@@ -1,6 +1,6 @@
 # Assets Directory
 
-This directory contains all assets for the Ofi Services website.
+This directory contains all assets for the OFI Services website.
 
 ## Structure:
 - `images/` - All image files
@@ -8,7 +8,7 @@ This directory contains all assets for the Ofi Services website.
   - `profiles/` - Team member profile photos
 
 ## Required Files:
-- `images/logos/ofi-logo.png` - The main Ofi Services logo
+- `images/logos/ofi-logo.png` - The main OFI Services logo
 - `images/profiles/[name].jpg` - Individual team member photos
 
 ## Notes:

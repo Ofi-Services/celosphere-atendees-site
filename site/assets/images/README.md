@@ -1,6 +1,6 @@
 # Images Directory
 
-This directory contains all images used in the Ofi Services website.
+This directory contains all images used in the OFI Services website.
 
 ## Structure:
 - `logos/` - Company logos and branding assets

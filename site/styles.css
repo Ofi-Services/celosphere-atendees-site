@@ -261,6 +261,20 @@ body {
     border-top: 1px solid #333;
 }
 
+.footer-link {
+    color: #cca23f;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-link:hover {
+    color: #fff;
+    border-bottom: 1px solid #cca23f;
+    text-shadow: 0 0 5px rgba(204, 162, 63, 0.3);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {

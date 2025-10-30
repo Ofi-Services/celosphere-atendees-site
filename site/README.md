@@ -1,6 +1,6 @@
-# Ofi Services - Team Directory Website
+# OFI Services - Team Directory Website
 
-A modern, responsive website showcasing the Ofi Services team with individual attendee cards featuring contact information and meeting request functionality.
+A modern, responsive website showcasing the OFI Services team with individual attendee cards featuring contact information and meeting request functionality.
 
 ## Features
 
@@ -8,7 +8,7 @@ A modern, responsive website showcasing the Ofi Services team with individual at
 - **Responsive Grid**: Attendee cards automatically adapt to different screen sizes
 - **Contact Information**: Each card displays name, job title, phone, and email
 - **Meeting Requests**: Optional "Request Meeting" buttons that redirect to external booking platforms
-- **Logo Support**: Placeholder for Ofi Services logo and branding
+- **Logo Support**: Placeholder for OFI Services logo and branding
 - **Mobile Friendly**: Fully responsive design that works on all devices
 
 ## Project Structure
@@ -20,7 +20,7 @@ site/
 ├── script.js           # JavaScript for dynamic content generation
 ├── assets/             # Directory for images and media
 │   ├── README.md       # Instructions for asset placement
-│   └── ofi-logo.png    # (To be added) Ofi Services logo
+│   └── ofi-logo.png    # (To be added) OFI Services logo
 ├── .github/
 │   └── copilot-instructions.md  # Workspace-specific Copilot instructions
 └── README.md           # This file
@@ -47,7 +47,7 @@ site/
 ### Customization
 
 #### Adding Your Logo
-1. Place your Ofi Services logo in the `assets/` directory as `ofi-logo.png`
+1. Place your OFI Services logo in the `assets/` directory as `ofi-logo.png`
 2. The website will automatically display it in the header
 
 #### Adding/Editing Attendees
@@ -125,8 +125,8 @@ For questions or issues with this website:
 
 ## License
 
-This project is created for Ofi Services. All rights reserved.
+This project is created for OFI Services. All rights reserved.
 
 ---
 
-**Note**: This website includes placeholder content and sample data. Replace all placeholder information with actual Ofi Services content before production use.
+**Note**: This website includes placeholder content and sample data. Replace all placeholder information with actual OFI Services content before production use.
