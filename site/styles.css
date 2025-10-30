@@ -13,6 +13,11 @@ body {
     line-height: 1.6;
     color: white;
     background-color: #070707;
+    background-image: url('assets/images/backgrounds/Ofi Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     padding-top: 140px; /* Space for fixed header */
 }
 
@@ -52,7 +57,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #cca23f;
+    color: white;
 }
 
 /* Main Content */
